@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>CSS Cheat Sheet</title>
+</head>
+<body>
+    <header>
+        <h1>CSS Cheat Sheet</h1>
+        <p>This is a cheat sheet for the tricky CSS code</p>
+    </header>
+<main>
+    <div>
+        <h2>Flexbox Row</h2>
+        <p>Use these three properties to create a Flexbox row layout</p>
+        <ul>
+            <li>.row {</li>
+            <li class=line-indent>    display: flex;</li>
+            <li class=line-indent>    flex-direction: row;</li>
+            <li class=line-indent>    flex-wrap: wrap;</li>
+            <li>}</li>
+        </ul>
+    </div>
+    
+    <div>
+        <h2>Flexbox Column</h2>
+        <p>Use this to create a Flexbox column layout</p>
+        <ul>
+            <li>.column {</li>
+            <li class=line-indent> display: flex;</li>
+            <li class=line-indent> flex-direction: column;</li>
+            <li>}</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>CSS Grid Layout</h2>
+        <p>Build a 12-column layout using CSS Grid</p>
+        <ul>
+            <li>.grid {</li>
+            <li class=line-indent> display: grid;</li>
+            <li class=line-indent> width: 100%;</li>
+            <li class=line-indent> grid-template-columns: repeat (12, 1fr);</li>
+            <li>}</li>
+        </ul>
+    </div>
+    
+    <div>
+        <h2>Linear Gradients</h2>
+        <p>This will create a background linear gradient from top to bottom</p>
+        <ul>
+            <li>.linear-gradient-background {</li>
+            <li class=line-indent> background-image: linear-gradient(cornflowerblue, blue);
+            </li>};</li>
+        </ul>
+    </div>
+    
+    <div>
+        <h2>Box Transition Glow</h2>
+        <p>Use transition and box shadows to glow on hover</p>
+        <ul>
+            <li>.code-card .card-header {</li>
+            <li class=line-indent>border-radius: 8px;</li>
+            <li class=line-indent>transition: all 0.5s ease-in-out;</li>
+        </ul>
+        <ul>
+            <li>.code-card:hover,</li>
+            <li>.code-card:hover .card-header {</li>
+            <li class=line-indent>box-shadow: inset 0px 0px 8px</li>
+            <li class=line-indent>transition: all 0.5s ease-in-out;</li>
+        </ul>
+
+    </div>
+    
+    <div>
+        <h2>Overlay Card with Title</h2>
+        <p>Use position properties and negative margins t oraise elements higher than their natural starting point</p>
+        <ul>
+            <li>.card-header { </li>
+            <li class=line-indent>position: relative;</li>
+            <li class=line-indent>margin-top: -20px;</li>
+        </ul>
+    </div>
+    
+
+
+</main>
+
+<footer>
+    Created by TEW 
+</footer>
+    
+</body>
+</html>

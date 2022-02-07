@@ -1,0 +1,66 @@
+html {
+  background-color: black;
+  color: cornflowerblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  display: flexbox;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  border-style: dotted;
+  border-color: white;
+  width: 350px;
+  height: 100%;
+  padding: 15px;
+  margin: 30px;
+}
+
+div:hover {
+  box-shadow: 0px 0px 15px 20px rgb(145, 210, 240);
+}
+
+h2 {
+  border-style: solid;
+  background-color: black;
+  border-color: white;
+  border-radius: 5px;
+  position: relative;
+  margin-top: -30px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  color: black;
+  flex-grow: 1;
+  background-image: linear-gradient(cornflowerblue, blue);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ul {
+  -moz-user-select: all;
+  -webkit-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+}
+
+.line-indent {
+  text-indent: 10px;
+}
+
+footer {
+  text-align: center;
+  color: cornflowerblue;
+}
